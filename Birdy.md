@@ -1,8 +1,30 @@
-#Birdy
+# Birdy
 
 Le baguage est un outil de surveillance et d’étude des populations d’oiseaux sauvages. Le principe du marquage individuel permet d’étudier les voies et modalités de migration, la dynamique des populations (taux de natalité, taux de survie, causes de mortalité). La continuité du programme, débuté en 1927 en Belgique, permet d’étudier les tendances longues, ce qui est particulièrement pertinent dans le contexte de l’évaluation de l’état de l’environnement et des influences des changements climatiques.
 
 Le Centre Belge de Baguage s’attache à : organiser la collecte de données de qualité, par un réseau cohérent de collaborateurs bagueurs volontaires certifiés ; mettre ces données à disposition des scientifiques, professionnels et amateurs, des gestionnaires et des décideurs ; promouvoir le développement de la connaissance en participant à la formation d’étudiants du cycle supérieur ; développer des  programmes de recherche propres axés sur la conservation de la Nature. Plus d'info sur le site spécifique BEBIRDS.
+
+## Cahier des charges :
+- L’utilisateur doit s’authentifier pour accéder à l’application. Il serait fâcheux de voir des personnes non agréées entrer des données aléatoires dans l’application.
+- Lorsqu’un oiseau est capturé les données suivantes sont relevées
+    - Quand a-t-il été capturé ?
+    - Où ?
+    - S’agit-il d’une reprise ?
+    - De quel oiseau s’agit-il ?
+    - Quel est son nom latin ?
+    - Quel type de bague le scientifique doit-il utiliser ?
+    - Quel numéro (série) de bague ?
+    - Quelle est la longueur à l’air de l’oiseau ?
+    - Poids
+    - Adiposité (niveau de graisse)
+    - Sexe
+    - Âge
+- L’application doit être utilisable hors-ligne et se synchroniser lorsque l’utilisateur décide (ou peut) se connecter.
+- L’application doit
+- À partir de 500 captures au même endroit, ce lieu devient un « site de baguage ».
+- L’application doit comporter une partie « encyclopédie » (fiche produit, description de l’oiseau).
+
+___
 
 ## Liens utiles :
 * [Les Reprises](http://odnature.naturalsciences.be/bebirds/fr/ring-recoveries)
