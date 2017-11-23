@@ -5,24 +5,50 @@ Le baguage est un outil de surveillance et d’étude des populations d’oiseau
 Le Centre Belge de Baguage s’attache à : organiser la collecte de données de qualité, par un réseau cohérent de collaborateurs bagueurs volontaires certifiés ; mettre ces données à disposition des scientifiques, professionnels et amateurs, des gestionnaires et des décideurs ; promouvoir le développement de la connaissance en participant à la formation d’étudiants du cycle supérieur ; développer des  programmes de recherche propres axés sur la conservation de la Nature. Plus d'info sur le site spécifique BEBIRDS.
 
 ## Cahier des charges :
-- L’utilisateur doit s’authentifier pour accéder à l’application. Il serait fâcheux de voir des personnes non agréées entrer des données aléatoires dans l’application.
-- Lorsqu’un oiseau est capturé les données suivantes sont relevées
-    - Quand a-t-il été capturé ?
-    - Où ?
-    - S’agit-il d’une reprise ?
-    - De quel oiseau s’agit-il ?
-    - Quel est son nom latin ?
-    - Quel type de bague le scientifique doit-il utiliser ?
-    - Quel numéro (série) de bague ?
-    - Quelle est la longueur à l’air de l’oiseau ?
-    - Poids
-    - Adiposité (niveau de graisse)
-    - Sexe
-    - Âge
-- L’application doit être utilisable hors-ligne et se synchroniser lorsque l’utilisateur décide (ou peut) se connecter.
-- L’application doit
-- À partir de 500 captures au même endroit, ce lieu devient un « site de baguage ».
-- L’application doit comporter une partie « encyclopédie » (fiche produit, description de l’oiseau).
+* L’utilisateur doit pouvoir s'inscrire et s’authentifier (via un ID fourni par l'institut des Sciences Naturelles). Il serait fâcheux de voir des personnes non agréées entrer des données aléatoires dans l’application.
+* Lorsqu’un oiseau est capturé les données suivantes sont relevées :
+  * **Comment** a-t-il été capturé ? (1)
+  * **Quand** a-t-il été capturé ?
+  * **Où** ?
+  * S’agit-il d’une reprise ?
+    * Quel est le numéro de bague ?
+    * informations sur la reprise (voir mesures ci-dessous)
+  * De quel oiseau s’agit-il ?
+    * Quel est son nom latin (auto-complétion) ?
+    * Quel type de bague le scientifique doit-il utiliser ?
+    * Quel numéro (série) de bague ?
+    * Quelle est la longueur à l’air de l’oiseau ?
+    * Poids
+    * Adiposité (niveau de graisse)
+    * Sexe
+    * Âge
+* L'utilisateur peut modifier ses listes à n'importe quel moment.
+* À partir de 500 captures au même endroit, ce lieu devient un « site de baguage ».
+  * Longitude + latitude (récupéré grâce à la géolocalisation)
+  * Superficie (à définir par l'utilisateur, p-e proposer un calcul via carte)
+  * Nom du lieu/site (à saisir par l'utilisateur)
+* L’application doit comporter une partie « encyclopédie » (fiche produit, description de l’oiseau).
+  * Nom commun
+  * Nom Latin
+  * Famille
+  * Photo(s)
+  * Description (physique)
+  * Taille (debout)
+  * Envergure
+  * Poids
+  * Durée de vie
+  * Alimentation
+  * Lieux de nidifications
+  * Habitats (ex: buissons, fougères ou champs, clairières, etc.)
+  * Type de vol / Comportement :
+  * Distribution (carte)
+  * Chant (audio)
+* Les listes de tous les utilisateurs sont consultables en tout temps.
+
+(1) Les sessions de baguage sont organisées par type de capture (au nid, avec filet, etc). Il est donc très rare de prendre des oiseaux au nid en même temps qu'au filet.
+
+### Bonus
+* L’application doit être utilisable hors-ligne et se synchroniser lorsque l’utilisateur décide (ou peut) se connecter.
 
 ___
 
@@ -32,6 +58,9 @@ ___
 * [Signaler un oiseau bagué](http://odnature.naturalsciences.be/bebirds/fr/report-a-ring)
 * [Trektellen](http://www.trektellen.nl/?language=french)
 * [Application Androïd Trektellen](https://play.google.com/store/apps/details?id=org.trektellen)
+* [Application iOS/Androïd du livre de Lars Svensson](https://play.google.com/store/apps/details?id=com.natureguides.birdguide)
+* [Vidéo de présentation de l'application](https://www.youtube.com/watch?v=4aOcRvFm91I)
+* [Fiche descriptive du Rougequeue noir](http://www.oiseaux.net/oiseaux/rougequeue.noir.html)
 
 ## Ressources :
 * https://medium.com/uber-design/crafting-data-driven-maps-b0835b620554
