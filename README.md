@@ -17,7 +17,7 @@ Le Centre Belge de Baguage s’attache à : organiser la collecte de données d
     * Quel est son nom latin (auto-complétion) ?
     * Quel type de bague le scientifique doit-il utiliser ?
     * Quel numéro (série) de bague ?
-    * Quelle est la longueur à l’air de l’oiseau ?
+    * Quelle est la longueur alaire de l’oiseau ?
     * Poids
     * Adiposité (niveau de graisse)
     * Sexe
