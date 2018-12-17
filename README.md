@@ -45,7 +45,7 @@ Le Centre Belge de Baguage s’attache à : organiser la collecte de données d
   * Chant (audio)
 * Les listes de tous les utilisateurs sont consultables en tout temps.
 
-(1) Les sessions de baguage sont organisées par type de capture (au nid, avec filet, etc). Il est donc très rare de prendre des oiseaux au nid en même temps qu'au filet.
+(1) (au nid, avec filet, etc)
 
 ### Bonus
 * L’application doit être utilisable hors-ligne et se synchroniser lorsque l’utilisateur décide (ou peut) se connecter.
