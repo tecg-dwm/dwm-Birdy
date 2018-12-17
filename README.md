@@ -43,6 +43,10 @@ Le Centre Belge de Baguage s’attache à : organiser la collecte de données d
   * Distribution (carte)
   * Chant (audio)
 * Les listes de tous les utilisateurs sont consultables en tout temps.
+  * Nom + Prénom
+  * ID 
+  * Sites
+  * Total captures
 
 (1) (au nid, avec filet, etc)
 
